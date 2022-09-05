@@ -1,13 +1,23 @@
 //Define an arrow fucntion that returns square of a number
-
+const square=(a)=>a*a;
 
 
 //Define a function that return the largest of two numbers 
+function largestNumber(a,b){
+  if(a>b) return a;
+    return b;
+  }
+  console.log(largestNumber(20,22));
 
+  
+}
 
 
 // Define a function that returns the area of a circle after given a radius
-
+function areaOfCircle (r) {
+  return (3.14*(r*r))
+}
+console.log(circleArea=(2));
 
 
 
